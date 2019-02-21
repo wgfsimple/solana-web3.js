@@ -119,7 +119,7 @@ export class Transaction {
   /**
    * Fee for this transaction
    */
-  fee: number = 1;
+  fee: number = 0.001;
 
   /**
    * Construct an empty Transaction
